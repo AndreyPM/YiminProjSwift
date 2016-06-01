@@ -26,6 +26,8 @@
 		20B553CB19701F1F006165BF /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B553BC19701F1F006165BF /* star.png */; };
 		20B553CC19701F1F006165BF /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B553BD19701F1F006165BF /* star@2x.png */; };
 		20E0B9801B6A7A32002A3FED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E0B97F1B6A7A32002A3FED /* LaunchScreen.storyboard */; };
+		C352AB401CFED3D60001AC6B /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = C352AB3F1CFED3D60001AC6B /* Login.swift */; };
+		C352AB461CFED57C0001AC6B /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C352AB451CFED57C0001AC6B /* Registration.swift */; };
 		C3632EB01CFE7BB300F08013 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = C3632EAC1CFE7BB300F08013 /* checked.png */; };
 		C3632EB11CFE7BB300F08013 /* checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3632EAD1CFE7BB300F08013 /* checked@2x.png */; };
 		C3632EB21CFE7BB300F08013 /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = C3632EAE1CFE7BB300F08013 /* unchecked.png */; };
@@ -54,6 +56,8 @@
 		20B553BC19701F1F006165BF /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = FrostedSidebar/star.png; sourceTree = SOURCE_ROOT; };
 		20B553BD19701F1F006165BF /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star@2x.png"; path = "FrostedSidebar/star@2x.png"; sourceTree = SOURCE_ROOT; };
 		20E0B97F1B6A7A32002A3FED /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C352AB3F1CFED3D60001AC6B /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		C352AB451CFED57C0001AC6B /* Registration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
 		C3632EAC1CFE7BB300F08013 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checked.png; path = "../../radio-res-ios/checked.png"; sourceTree = "<group>"; };
 		C3632EAD1CFE7BB300F08013 /* checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checked@2x.png"; path = "../../radio-res-ios/checked@2x.png"; sourceTree = "<group>"; };
 		C3632EAE1CFE7BB300F08013 /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unchecked.png; path = "../../radio-res-ios/unchecked.png"; sourceTree = "<group>"; };
@@ -95,9 +99,11 @@
 				2008D69B197021D300B89D6C /* AppDelegate.swift */,
 				2008D69C197021D300B89D6C /* ViewController.swift */,
 				2008D69F1970223100B89D6C /* Main.storyboard */,
+				C352AB3F1CFED3D60001AC6B /* Login.swift */,
 				20E0B97F1B6A7A32002A3FED /* LaunchScreen.storyboard */,
 				2008D6A51970231B00B89D6C /* Images.xcassets */,
 				208E5DF1196DBE6F005653B3 /* Supporting Files */,
+				C352AB451CFED57C0001AC6B /* Registration.swift */,
 			);
 			name = FrostedSidebar;
 			path = CustomStuff;
@@ -159,7 +165,7 @@
 				TargetAttributes = {
 					208E5DED196DBE6F005653B3 = {
 						CreatedOnToolsVersion = 6.0;
-						DevelopmentTeam = 44SYMBLN5U;
+						DevelopmentTeam = W98LCSJ7N2;
 					};
 				};
 			};
@@ -216,8 +222,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2008D69E197021D300B89D6C /* ViewController.swift in Sources */,
+				C352AB401CFED3D60001AC6B /* Login.swift in Sources */,
 				20A1FAD919B4B1CE00208E92 /* TabBarController.swift in Sources */,
 				2008D69D197021D300B89D6C /* AppDelegate.swift in Sources */,
+				C352AB461CFED57C0001AC6B /* Registration.swift in Sources */,
 				2066AEA3196DC14A001EE855 /* FrostedSidebar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,13 +315,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: tyrok_2010@mail.ru (NN8H963UN8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: tyrok_2010@mail.ru (NN8H963UN8)";
 				INFOPLIST_FILE = "$(SRCROOT)/FrostedSidebar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yy.Yimin;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kornilov-Andrey.Yimin";
 				PRODUCT_NAME = Yimin;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "cfe439c0-5a0b-4ab8-85f6-93eec2181805";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -322,13 +330,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: tyrok_2010@mail.ru (NN8H963UN8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: tyrok_2010@mail.ru (NN8H963UN8)";
 				INFOPLIST_FILE = "$(SRCROOT)/FrostedSidebar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yy.Yimin;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kornilov-Andrey.Yimin";
 				PRODUCT_NAME = Yimin;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "cfe439c0-5a0b-4ab8-85f6-93eec2181805";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
